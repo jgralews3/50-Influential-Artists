@@ -1,0 +1,19 @@
+.display (@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.linktext (@color, @decoration){
+    color: @color;
+    text-decoration: @decoration;
+}
+
+.buttonstyle (@c, @b, @br, @p){
+    color: @c; 
+    background: @b;
+    border-radius:@br;
+    padding: @p;
+}
+
+@mobile: ~"(max-width: 500px)";

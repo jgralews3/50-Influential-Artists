@@ -1,0 +1,27 @@
+header {
+    .display (space-evenly, center);
+    nav {
+        .display (space-evenly, center);
+        margin: 1rem;
+        @media @mobile {
+            flex-direction: column;
+        }
+        a {
+            .linktext(gray, none);
+            margin-left: 1rem;
+            font-size: 1.4rem;
+        }
+        #about {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-left: 2px solid gray;
+            border-right: 2px solid gray;
+            @media @mobile {
+                border-left: none;
+                border-right: none;
+                border-bottom: 2px solid gray;
+                border-top: 2px solid gray;
+            }
+        }
+    }
+}
