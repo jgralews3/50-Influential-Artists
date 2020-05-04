@@ -1,10 +1,13 @@
+ // background-image: url(/assets/home.png);
+    // background-size: cover;
+
 .title-container {
     .display (center, center);
     flex-direction: column;
     margin: 5rem;
     height: 30rem;
-    background-image: url(/assets/home.png);
     background-size: cover;
+    background-repeat: no-repeat;
     button {
         .buttonstyle (black, white, 3px, 1rem 4rem);
     }
@@ -23,6 +26,9 @@
 .artists-container {
     .display(space-evenly,flex-start);
     flex-wrap: wrap;
+    padding-top: 5rem;
+    border-top: 2px solid lightgray;
+    border-radius: 300px;
     @media @mobile {
         flex-direction: column;
         .display(center, center);
